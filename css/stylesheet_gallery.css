@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	text-decoration: none;
+	font-family: 'Khand', sans-serif;
+}
+
+/*ETIQUETAS*/
+/*Navegacion*/
+
+body{
+	color: black;
+
+}
+ul li{
+
+	list-style: none;
+	display: inline-block;
+	padding: 0 25px;
+	
+}
+
+ul li a{
+	color: white ;
+	
+}
+
+ul li a:hover{
+	color: #1a1a1a;
+
+}
+
+/*CLASES*/
+
+
+.socialMedia{
+	padding: 0 40px;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	
+	transform: translate(-50%,-50%);
+
+
+}
+
+.knot{
+	position: absolute;
+	top:50%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+}
+
+.menu{
+
+	font-size: 20px;
+	position: absolute;
+	top:80%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+	
+}
+
+
+
+
+
+/*ID*/
+
+
+
+
+
+/*Large / 901px - 1200px*/
+@media screen and (min-width: 901px) and (max-width: 1200px){
+
+}
+
+/*Xl / mas de 1201px*/
+@media (min-width: 1201px){
+	#contenedor{
+		width: 1190px;
+	}

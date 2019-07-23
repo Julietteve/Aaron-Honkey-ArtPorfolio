@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title> 
+	The art of Aaron Horkey
+	</title>
+
+	<link rel="shortcut icon" type="image/png" href="img/celt_knotBK.png">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+ 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Khand&display=swap" rel="stylesheet">
+ 
+ 	
+</head>
+
+<body>
+	<main>
+
+
+	
+		<div class="socialMedia" >
+			<ul  >
+			<li><a href="https://www.facebook.com/aaronhorkey" target="_blank"><img src="img/logoFC.png"></a></li>
+			<li><a href="https://www.instagram.com/aaronhorkey" target="_blank"><img src="img/logoIG.png"></a></li>
+			<li><a href="https://twitter.com/aaronhorkey" target="_blank"><img src="img/logoTW.png"></a></li>
+			</ul>
+		</div>
+			
+	
+	<div>
+		<div class="knot">
+			<a href="index.html"><img src="img/celt_knot.png" ></a>
+		</div>
+
+		<div>
+			<nav>
+				<ul id="menu_index">
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="theArtist.html">THE ARTIST</a></li>
+					<li><a href="contact.html"> CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+	</main>
+
+<!-- JS -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<!-- Backstretch -->
+<script src="js/jquery.backstretch.min.js"></script>
+<!-- NiceScroll -->
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+<!-- FancyBox -->
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+
+
+    $.backstretch([
+      "img/ah1.jpg",
+      "img/ah2.jpg",
+      "img/ah3.jpg"
+      ], {
+        fade: 750,
+        duration: 4000,
+    });
+
+$(function() {  
+    $("body").niceScroll({cursorcolor: "black",cursorwidth: "7px",});
+});
+});
+
+
+</script>
+	
+</body>
+</html>

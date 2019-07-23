@@ -1,0 +1,289 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Khand', sans-serif;
+}
+
+/*ETIQUETAS*/
+/*Navegacion*/
+
+header{
+	width: 100%;
+	height:300px;
+	background-image: url("../img/header_gallery.jpg");
+}
+/*CLASES*/
+
+.socialMedia li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 10px;
+}
+
+.socialMedia{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.socialMedia a{
+	opacity:0.6
+}
+
+.socialMedia a:hover{
+	opacity:1
+}
+
+.knot{
+	position: absolute;
+	top:50%;
+ 	left:50%;
+ 	transform: translate(-50%,-50%);
+ 	opacity:0.6;
+}
+
+.knot:hover{
+	opacity:1;
+}
+
+
+.gallery-item{
+	opacity: 0.8;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
+
+}
+
+.gallery-item:hover{
+	opacity: 1;
+	transform: scale(1.03);
+}
+
+.gallery-conteiner{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin-left: 16%;
+	margin-right: auto;
+
+
+}
+
+.gallery-item{
+	width: 20%;
+	margin: 2em;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.boxer{
+	position: relative;
+  	width: 100%;
+}
+
+.portrait{
+  opacity: 0.7;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.box{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.boxer:hover .portrait {
+  opacity: 0.3;
+}
+
+.boxer:hover .box{
+  opacity: 1;
+}
+
+.data{
+
+  color: #1a1a1a;
+  font-size: 14px;
+  padding: 16px 32px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-align: justify;
+  display: flex;
+}
+
+
+/*ID*/
+
+#menu_index li{
+	display: inline-block;
+	list-style: none;
+	padding: 0 30px;
+}
+
+#menu_index a{
+	
+	color: #f0ebeb;	
+	
+}
+#menu_index a:hover{
+	color: #1f1d1d;
+
+}
+#menu_index{
+	
+	font-size: 18px;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	position: absolute;
+	top:80%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);	
+}
+
+#menu_gallery li{
+	display: inline-block;
+	list-style: none;
+	padding: 0 20px;
+}
+
+
+#menu_gallery a{
+ 	color:#1a1a1a;
+ 	font-size: 18px;
+ }
+
+#menu_gallery a:hover{
+ 	color:white;
+}
+
+
+#menu_gallery{
+	display: flex;
+	justify-content: center;
+}
+
+ #selectedWork{
+ 	color:#1a1a1a;
+	padding: 50px;
+	text-align: center; 
+	font-weight: lighter;
+	letter-spacing: 5px;	
+
+ }
+
+#head{
+ 	display: flex;
+ 	padding: 15px;
+ 	justify-content: center;
+ 	left: 80%;
+ 	opacity: 0.5;
+ }
+
+ #head:hover{
+ 	opacity:1;
+ }
+
+ #footer{
+
+ 	width: 100%;
+	height:120px;
+	background-image: url("../img/footer_gallery.jpg");
+
+	
+ }
+
+ #copyright{
+	color: #f0ebeb;
+	display: flex;
+	justify-content: center;
+
+ }
+
+#socialMedia_gallery li{
+	display: inline-block;
+	list-style: none;
+	padding: 25px;
+}
+
+#socialMedia_gallery{
+	display: flex;
+	justify-content: center;
+
+}
+
+#up{
+	padding:20px;
+	display:flex;
+	justify-content: center;
+}
+
+/*HOJA DE CONTACTO*/
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color:#1a1a1a ;
+  color: white;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color:white;
+  padding: 20px;
+}
+
+.background{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.mail{
+	padding: 25px;
+}
+
+.mail h2{
+	font-weight: lighter;
+	letter-spacing: 5px;
+	text-align:center;
+}
